@@ -1,4 +1,4 @@
-package com.project.compusResurce_Automation_System;
+package com.project.compusResurce_Automation_System.Entities_Class;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

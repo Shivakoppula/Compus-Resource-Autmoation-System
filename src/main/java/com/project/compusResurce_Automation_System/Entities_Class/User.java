@@ -1,4 +1,4 @@
-package com.project.compusResurce_Automation_System;
+package com.project.compusResurce_Automation_System.Entities_Class;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,10 +1,13 @@
-package com.project.compusResurce_Automation_System;
+package com.project.compusResurce_Automation_System.Services;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.project.compusResurce_Automation_System.Entities_Class.Notice;
+import com.project.compusResurce_Automation_System.Repositories.NoticeRepository;
 
 @Service
 public class NoticeService {

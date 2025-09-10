@@ -1,10 +1,13 @@
-package com.project.compusResurce_Automation_System;
+package com.project.compusResurce_Automation_System.Services;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.project.compusResurce_Automation_System.Entities_Class.ClassroomBooking;
+import com.project.compusResurce_Automation_System.Repositories.ClassroomBookingRepository;
 
 @Service
 public class BookingService {

@@ -1,4 +1,4 @@
-package com.project.compusResurce_Automation_System;
+package com.project.compusResurce_Automation_System.Controllers;
 
 import java.util.List;
 
@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
+
+import com.project.compusResurce_Automation_System.Entities_Class.Grievance;
+import com.project.compusResurce_Automation_System.Entities_Class.User;
+import com.project.compusResurce_Automation_System.Repositories.GrievanceRepository;
+import com.project.compusResurce_Automation_System.Repositories.UserRepository;
 
 @RestController
 @RequestMapping("/api/grievances")

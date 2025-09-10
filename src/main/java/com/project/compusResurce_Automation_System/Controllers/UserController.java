@@ -1,4 +1,4 @@
-package com.project.compusResurce_Automation_System;
+package com.project.compusResurce_Automation_System.Controllers;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.project.compusResurce_Automation_System.Entities_Class.User;
+import com.project.compusResurce_Automation_System.Services.UserService;
 
 @RestController
 @RequestMapping("/api/users")
