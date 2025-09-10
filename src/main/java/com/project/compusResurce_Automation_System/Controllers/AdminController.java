@@ -111,7 +111,7 @@ public class AdminController {
         checkIsAdmin(adminId);
         return noticeRepository.save(notice);
     }
-    //delete a notice
+    //delete a notice by admin
     @DeleteMapping("/notice/{noticeId}")
     public String deleteNotice(@RequestParam Long adminId, @PathVariable Long noticeId) {
         checkIsAdmin(adminId);
